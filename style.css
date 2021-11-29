@@ -22,6 +22,7 @@ body {
 	min-width: 360px;
 	font-family: var(--dmSans);
 	text-align: center;
+	margin: auto;
 }
 h2.main-title {
 	display: inline-block;
@@ -123,7 +124,4 @@ h2.card-number::before {
 }
 .border-left-none {
 	border-left: none;
-}
-.padding-left {
-	padding-left: ;
 }
