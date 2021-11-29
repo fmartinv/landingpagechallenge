@@ -15,87 +15,115 @@ body {
 	--font: 16px;
 	--white: #ffff;
 	--fonth5: 22px;
-	--dmSans:font-family: 'DM Sans', sans-serif;
+	--dmSans: 'DM Sans', sans-serif;
 }
 .main-container {
 	max-width: 1170px;
 	min-width: 360px;
 	font-family: var(--dmSans);
+	text-align: center;
+}
+h2.main-title {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 42px;
+	margin-bottom: 0;
+	color: #1e0e62;
+}
+p.main-paragraph {
+	font-size: var(--fonth5);
+	font-weight: 500;
+	color: #15143966;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 .box-one-pricing {
 	display: flex;
 	justify-items: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: calc(100% - 115px);
 }
 .price-display-common {
 	text-align: center;
 	font-family: DM Sans;
-	border: 2px solid #ebeaed;
 	width: 294px;
 }
 
 .price-display1 {
 	max-height: 410px;
+	border-left: 2px solid #ebeaed;
+	border-top: 2px solid #ebeaed;
+	border-right: 1px solid #ebeaed;
 }
 .price-display2 {
 	max-height: 524px;
+	border-top: 2px solid #ebeaed;
+	border-right: 1px solid #ebeaed;
 }
 .price-display3 {
 	max-height: 582px;
+	border-top: 2px solid #ebeaed;
+	border-right: 1px solid #ebeaed;
 }
 .price-display4 {
 	max-height: 640px;
+	border-top: 2px solid #ebeaed;
+	border-right: 2px solid #ebeaed;
 }
 .li-price-display {
 	border: 1px solid #ebeaed;
 	list-style: none;
 	height: 60px;
+	max-width: 294px;
 	color: #1e0e62;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
-	
 }
-button{
+button {
 	background-color: var(--white);
 	font-size: var(--font);
 	padding: 12px 25px;
 	border-radius: 100px;
-	margin-bottom: 63px !important;
+	margin-bottom: 40px !important;
 	cursor: pointer;
 }
-button:hover{
-	color:#ffffff;
-	background-color: #25DAC5;
+button:hover {
+	color: #ffffff;
+	background-color: #25dac5;
 }
 
-
-
-h5 .card-title{
+h5.card-title {
 	margin-top: 49px;
 	margin-bottom: 11px;
 	font-weight: 500;
 	font-size: var(--fonth5);
+	color: #1e0e62;
 }
-p.card-paragraph{
+p.card-paragraph {
 	margin-bottom: 24px;
 	font-size: 16px;
 	font-weight: 400;
-	color: #15143966 ;
-
+	color: #15143966;
 }
-h2.card-number{
+h2.card-number {
 	margin-bottom: 44px;
 	font-weight: 700;
-    font-size: 58px;
+	font-size: 58px;
 }
- h2.card-number::before{
-	 content: url(assets/$.png);
-	 position:relative;
-	 right:10px;
-	 bottom: 25px;
-	 
- }
+h2.card-number::before {
+	content: url(assets/$.png);
+	position: relative;
+	right: 10px;
+	bottom: 25px;
+}
+.round-boder-left {
+	border-bottom-left-radius: 10px;
+}
+.border-left-none {
+	border-left: none;
+}
+.padding-left {
+	padding-left: ;
+}
