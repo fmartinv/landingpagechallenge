@@ -48,46 +48,40 @@ p.main-paragraph {
 	text-align: center;
 	font-family: DM Sans;
 	width: 294px;
+	border: 1px solid #ebeaed;
+	border-bottom-left-radius: 10px;
 }
 
 .price-display1 {
-	max-height: 410px;
-	border-left: 2px solid #ebeaed;
-	border-top: 2px solid #ebeaed;
-	border-right: 1px solid #ebeaed;
+	max-height: 419px;
 }
 .price-display2 {
-	max-height: 524px;
-	border-top: 2px solid #ebeaed;
-	border-right: 1px solid #ebeaed;
+	max-height: 539px;
 }
 .price-display3 {
-	max-height: 582px;
-	border-top: 2px solid #ebeaed;
-	border-right: 1px solid #ebeaed;
+	max-height: 599px;
 }
 .price-display4 {
-	max-height: 640px;
-	border-top: 2px solid #ebeaed;
-	border-right: 2px solid #ebeaed;
+	max-height: 656px;
 }
-.li-price-display {
-	border: 1px solid #ebeaed;
+.small-price-display {
 	list-style: none;
 	height: 60px;
-	max-width: 294px;
 	color: #1e0e62;
 	display: flex;
 	align-items: center;
+	justify-items: center;
 	justify-content: center;
 	text-decoration: none;
+	border-top: 2px solid #ebeaed;
 }
 button {
 	background-color: var(--white);
 	font-size: var(--font);
 	padding: 12px 25px;
 	border-radius: 100px;
-	margin-bottom: 40px !important;
+	border: 2px solid #ebeaed;
+	margin-bottom: 43px !important;
 	cursor: pointer;
 }
 button:hover {
@@ -120,7 +114,6 @@ h2.card-number::before {
 	bottom: 25px;
 }
 .round-boder-left {
-	border-bottom-left-radius: 10px;
 }
 .border-left-none {
 	border-left: none;
