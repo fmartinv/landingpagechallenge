@@ -51,7 +51,6 @@ p.main-paragraph {
 	border: 1px solid #ebeaed;
 	border-bottom-left-radius: 10px;
 }
-
 .price-display1 {
 	max-height: 419px;
 }
@@ -88,7 +87,6 @@ button:hover {
 	color: #ffffff;
 	background-color: #25dac5;
 }
-
 h5.card-title {
 	margin-top: 49px;
 	margin-bottom: 11px;
@@ -112,8 +110,6 @@ h2.card-number::before {
 	position: relative;
 	right: 10px;
 	bottom: 25px;
-}
-.round-boder-left {
 }
 .border-left-none {
 	border-left: none;
