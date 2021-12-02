@@ -52,18 +52,21 @@ p.main-paragraph {
 	border-bottom-left-radius: 10px;
 }
 .price-display1 {
-	max-height: 419px;
+	max-height: 436px;
 }
 .price-display2 {
-	max-height: 539px;
+	max-height: 555px;
 }
 .price-display3 {
-	max-height: 599px;
+	max-height: 615px;
 }
 .price-display4 {
-	max-height: 656px;
+	max-height: 676px;
 }
-.small-price-display {
+ul {
+	padding: 0;
+}
+.small-price-display li {
 	list-style: none;
 	height: 60px;
 	color: #1e0e62;
@@ -104,9 +107,12 @@ h2.card-number {
 	margin-bottom: 44px;
 	font-weight: 700;
 	font-size: 58px;
+	color: #1e0e62;
 }
 h2.card-number::before {
-	content: url(assets/$.png);
+	content: ' \0024';
+	font-size: 16px;
+	color: #1e0e62;
 	position: relative;
 	right: 10px;
 	bottom: 25px;
